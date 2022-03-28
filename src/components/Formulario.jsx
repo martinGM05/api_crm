@@ -29,7 +29,7 @@ const Formulario = ({ cliente, cargando }) => {
     const handleSubmit = async (valores) => {
         try {
             let respuesta
-            const url = 'http://localhost:4000/clientes'
+            const url = import.meta.env.VITE_API_URL
             if(cliente.id){
                 respuesta = await fetch(url + '/' + cliente.id, {
                     method: 'PUT',
