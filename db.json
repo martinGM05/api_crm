@@ -1,0 +1,20 @@
+{
+  "clientes": [
+    {
+      "nombre": "Martin Actualizado",
+      "empresa": "Coca Cola",
+      "email": "mtn.gm05@gmail.com",
+      "telefono": "2311434214",
+      "notas": "Cliente que busca algo",
+      "id": 1
+    },
+    {
+      "nombre": "Edgar Actualizado",
+      "empresa": "Codigo Con Juan",
+      "email": "edgar@gmail.com",
+      "telefono": "2315369586",
+      "notas": "Codificador",
+      "id": 4
+    }
+  ]
+}
